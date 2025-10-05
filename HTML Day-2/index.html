@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table and Form</title>
+  </head>
+  <body>
+    <!-- Table creation -->
+    <table border>
+      <tr>
+        <th>Name</th>
+        <th>Color</th>
+        <th>Taste</th>
+      </tr>
+      <tr>
+        <td>Apple</td>
+        <td>Red</td>
+        <td>Sweet</td>
+      </tr>
+      <tr>
+        <td>Banana</td>
+        <td>Yellow</td>
+        <td>Sweet</td>
+      </tr>
+
+      <tr>
+        <td>Watermelon</td>
+        <td>Red</td>
+        <td>Sweet</td>
+      </tr>
+    </table>
+
+    <!-- Unordered list movies 2025-->
+    <h3>Movies 2025</h3>
+    <ul>
+      <li>Go Goa Gone 2</li>
+      <li>Krrish 4</li>
+      <li>Jolly LLB 3</li>
+      <li>Dhadak 2</li>
+      <li>War 2</li>
+    </ul>
+
+    <!-- Ordered list -->
+    <h3>Steps to make a Tea</h3>
+    <ol>
+      <li>Boil water in a pot</li>
+      <li>Add sugar and tea powder, boil it well.</li>
+      <li>Then add milk, boil it well, and the tea is ready</li>
+    </ol>
+
+    <!-- Form with validation -->
+    <h3>Form with valiation</h3>
+    <form action="">
+      <input
+        type="text"
+        minlength="3"
+        maxlength="50"
+        placeholder="Enter username"
+        required
+      />
+      <br /><br />
+      <input type="email" name="" id="" placeholder="Enter email" required />
+      <br /><br />
+      <label for="">Gender : </label>
+      <label>Male</label><input type="radio" name="gender" id="" required />
+      <label>Female</label><input type="radio" name="gender" id="" />
+      <label>Other</label><input type="radio" name="gender" id="" />
+      <br /><br />
+      <label for="">Select Age</label>
+      <select>
+        <option value="">18-24</option>
+        <option value="">25-34</option>
+        <option value="">35-44</option>
+      </select>
+      <br /><br />
+      <input type="checkbox" name="newsletter" />
+      <label>Subscribe to our newsletter</label>
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
